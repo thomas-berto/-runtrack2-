@@ -1,58 +1,43 @@
-	<?php 	
-	$booleen = true;
-	$integer = 21; 
-	$float = 1.21;
-	$string = 'glouglou';	   ?>
-	
-	
-	<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet">
-    </head>
-    
-	
-<body>
-  
-  
-  <table>
+<?php
+$vrais=true;
+$nom='thomas';
+$age=21;
+$float=2.22;
+?>
+ <table>
     <thead> 
         <tr>
             <th> type  </th>
             <th> nom </th>
-            <th> Valeur</th>
+            <th> valeur</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td> Boléens</td>
-            <td>$booleen</td>
-<td> <?php echo $booleen; ?></td>      
-  </tr>
-        <tr>
-            <td>String</td>
-            <td>$string</td>
-    <td><?php echo $string; ?></td>
+            <td> Booléen</td>
+            <td>vrais</td>
+            <td> <?php echo $vrais; ?></td>      
+        </tr>
 
-        </tr>
         <tr>
+            <td>Chaîne de caractères</td>
+            <td>nom</td>
+            <td><?php echo $nom; ?></td>
+        </tr>
+        
+        <tr>
+            <td>Entier</td>
+            <td>age</td>
+	        <td><?php echo $age; ?></td>
+        </tr>
+
+        <tr>
+            <td>Nombre à virgule flottante</td>
             <td>float</td>
-            <td>$float</td>
 			<td><?php echo $float; ?></td>
-       </tr>
-        <tr>
-      <td>Integer</td>
-   <td>$integer</td>
-	<td><?php echo $integer; ?></td>
         </tr>
+        
+       
     </tbody>
 
 </table>
-
-  
-	</body>
-</html>
-	   
-       
-   
